@@ -4,7 +4,7 @@
     "defaultBase": "master"
   },
   "implicitDependencies": {
-    "workspace.json": "*",
+    "angular.json": "*",
     "package.json": {
       "dependencies": "*",
       "devDependencies": "*"
@@ -22,5 +22,55 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "booking-desktop": {
+      "tags": []
+    },
+    "booking-desktop-e2e": {
+      "tags": [],
+      "implicitDependencies": ["booking-desktop"]
+    },
+    "booking-mobile": {
+      "tags": []
+    },
+    "booking-mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["booking-mobile"]
+    },
+    "booking-feature-shell": {
+      "tags": []
+    },
+    "booking-data-access": {
+      "tags": []
+    },
+    "check-in-desktop": {
+      "tags": []
+    },
+    "check-in-desktop-e2e": {
+      "tags": [],
+      "implicitDependencies": ["check-in-desktop"]
+    },
+    "check-in-mobile": {
+      "tags": []
+    },
+    "check-in-mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["check-in-mobile"]
+    },
+    "check-in-feature-shell": {
+      "tags": []
+    },
+    "check-in-data-access": {
+      "tags": []
+    },
+    "shared-data-access": {
+      "tags": []
+    },
+    "shared-seatmap-feature-seatmap": {
+      "tags": []
+    },
+    "shared-seatmap-data-access": {
+      "tags": []
+    }
+  }
 }

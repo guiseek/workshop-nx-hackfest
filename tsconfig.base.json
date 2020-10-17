@@ -15,7 +15,29 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workshop-nx/booking/feature-shell": [
+        "libs/booking/feature-shell/src/index.ts"
+      ],
+      "@workshop-nx/booking/data-access": [
+        "libs/booking/data-access/src/index.ts"
+      ],
+      "@workshop-nx/check-in/feature-shell": [
+        "libs/check-in/feature-shell/src/index.ts"
+      ],
+      "@workshop-nx/check-in/data-access": [
+        "libs/check-in/data-access/src/index.ts"
+      ],
+      "@workshop-nx/shared/data-access": [
+        "libs/shared/data-access/src/index.ts"
+      ],
+      "@workshop-nx/shared/seatmap/feature-seatmap": [
+        "libs/shared/seatmap/feature-seatmap/src/index.ts"
+      ],
+      "@workshop-nx/shared/seatmap/data-access": [
+        "libs/shared/seatmap/data-access/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
