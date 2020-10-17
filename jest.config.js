@@ -11,5 +11,6 @@ module.exports = {
     '<rootDir>/libs/shared/data-access',
     '<rootDir>/libs/shared/seatmap/feature-seatmap',
     '<rootDir>/libs/shared/seatmap/data-access',
+    '<rootDir>/apps/api',
   ],
 };

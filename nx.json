@@ -4,7 +4,7 @@
     "defaultBase": "master"
   },
   "implicitDependencies": {
-    "angular.json": "*",
+    "workspace.json": "*",
     "package.json": {
       "dependencies": "*",
       "devDependencies": "*"
@@ -71,6 +71,9 @@
     },
     "shared-seatmap-data-access": {
       "tags": []
+    },
+    "api": {
+      "tags": ["type:app", "platform:server"]
     }
   }
 }
