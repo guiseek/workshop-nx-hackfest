@@ -5,12 +5,15 @@ import {
   SharedSeatmapFeatureSeatmapModule,
   sharedSeatmapFeatureSeatmapRoutes,
 } from '@workshop-nx/shared/seatmap/feature-seatmap';
+
+import { CheckInDataAccessModule } from '@workshop-nx/check-in/data-access';
+
 import { FeatureShellComponent } from './feature-shell.component';
 
 @NgModule({
   imports: [
     CommonModule,
-
+    CheckInDataAccessModule,
     RouterModule.forChild([
       {
         path: '',

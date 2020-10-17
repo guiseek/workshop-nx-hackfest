@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { BookingDataAccessService } from './booking-data-access.service';
+
+export * from './booking-data-access.service';
 
 @NgModule({
-  imports: [CommonModule],
+  providers: [BookingDataAccessService],
 })
 export class BookingDataAccessModule {}

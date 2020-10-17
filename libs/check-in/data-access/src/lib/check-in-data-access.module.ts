@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CheckInDataAccessService } from './check-in-data-access.service';
+
+export * from './check-in-data-access.service';
 
 @NgModule({
-  imports: [CommonModule],
+  providers: [CheckInDataAccessService],
 })
 export class CheckInDataAccessModule {}
